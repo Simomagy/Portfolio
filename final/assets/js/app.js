@@ -10,10 +10,10 @@ function loadingAnimation()
 	let loader = $('#loader');
 	let loaderContaier = $('.loader-container');
 	setTimeout(function() {
-		loader.fadeOut(1000);
-		loaderContaier.fadeOut(1000);
+		loader.fadeOut(1);
+		loaderContaier.fadeOut(1);
 		initAnimations();
-	},2500);
+	},5);
 }
 
 function initAnimations()
